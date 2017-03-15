@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Vente de vêtements en ligne</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+        <nav>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <a href="#"><button type="button" name="arrivals" id="arrivalsButton">Nouveautés</button></a>
+            </div>
+            <div class="panel-body">
+              <p><button type="button" name="men" id="men">Homme</button></p>
+              <div id="menList" hidden>
+                <p><a id="menTeeShirtsButton" href="#">Tee-shirts</a></p>
+                <p><a id="menPolosButton" href="#">Polos</a></p>
+                <p><a id="menShirtsButton" href="#">Chemises</a></p>
+                <p><a id="menSweatersButton" href="#">Pulls</a></p>
+                <p><a id="menSweatsButton" href="#">Sweats</a></p>
+                <p><a id="menVestsJacketsButton" href="#">Gilets/Vestes</a></p>
+                <p><a id="menCoatsButton" href="#">Manteaux</a></p>
+              </div>
+              <p><button type="button" name="women" id="women">Femme</button></p>
+              <div id="womenList" hidden>
+                <p><a id="womenTopsButton" href="#">Tops</a></p>
+                <p><a id="womenTeeShirtsButton" href="#">Tee-shirts</a></p>
+                <p><a id="womenPolosButton" href="#">Polos</a></p>
+                <p><a id="womenShirtsButton" href="#">Chemises</a></p>
+                <p><a id="womenDressButton" href="#">Robes</a></p>
+                <p><a id="womenSweatsButton" href="#">Sweats</a></p>
+                <p><a id="womenSweatersButton" href="#">Pulls</a></p>
+                <p><a id="womenVestsButton" href="#">Gilets</a></p>
+                <p><a id="womenJacketsButton" href="#">Vestes</a></p>
+                <p><a id="womenCoatsButton" href="#">Manteaux</a></p>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row category" id="arrivals">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Nouveautés </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal"><img src="images/Femme/tops/top-femme07.jpeg" alt="Top femme"></a>
+            <div id="openModal" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tops/top-femme07.jpeg" alt="Top femme">
+              </div>
+            </div>
+            <a href="#openModal1"><img src="images/Homme/t-shirt/tShirtFemme2.jpg" alt="T-shirts homme"></a>
+            <div id="openModal1" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/t-shirt/tShirtFemme2.jpg" alt="T-shirts homme">
+              </div>
+            </div>
+            <a href="#openModal2"><img src="images/Homme/manteaux/manteauSuperdry.jpg" alt="Manteau homme"></a>
+            <div id="openModal2" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/manteaux/manteauSuperdry.jpg" alt="Manteau homme">
+              </div>
+            </div>
+            <a href="#openModal3"><img src="images/Homme/giletVeste/sweetCKNoir.jpg" alt="Sweet noir homme"></a>
+            <div id="openModal3" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/giletVeste/sweetCKNoir.jpg" alt="Sweet noir homme">
+              </div>
+            </div>
+            <a href="#openModal4"><img src="images/Femme/chemises/chemise-femme02.jpg" alt="Chemise femme"></a>
+            <div id="openModal4" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/chemises/chemise-femme02.jpg" alt="Chemise femme">
+              </div>
+            </div>
+            <a href="#openModal5"><img src="images/Femme/vestes/veste-femme03.jpg" alt="Veste femme"></a>
+            <div id="openModal5" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/vestes/veste-femme03.jpg" alt="Veste femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="menCoats">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Manteaux </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal6"><img src="images/Homme/manteaux/manteau.jpg" alt="manteau"></a>
+            <div id="openModal6" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/manteaux/manteau.jpg" alt="manteau"></a>
+              </div>
+            </div>
+            <a href="#openModal7"><img src="images/Homme/manteaux/manteauCKBeige.jpg" alt="manteau"></a>
+            <div id="openModal7" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/manteaux/manteauCKBeige.jpg" alt="manteau">
+              </div>
+            </div>
+            <a href="#openModal8"><img src="images/Homme/manteaux/manteauSuperdry.jpg" alt="manteau"></a>
+            <div id="openModal8" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/manteaux/manteauSuperdry.jpg" alt="manteau">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden"  id="menVestsJackets">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Gilet </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal9"><img src="images/Homme/giletVeste/blouson-bomber-camouflage-rouge-homme-sixth-june.jpg" alt="manteau"></a>
+            <div id="openModal9" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/giletVeste/blouson-bomber-camouflage-rouge-homme-sixth-june.jpg" alt="manteau">
+              </div>
+            </div>
+            <a href="#openModal10"><img src="images/Homme/giletVeste/giletSuperdryBlanc.jpeg" alt="manteau"></a>
+            <div id="openModal10" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/giletVeste/giletSuperdryBlanc.jpeg" alt="manteau">
+              </div>
+            </div>
+            <a href="#openModal11"><img src="images/Homme/giletVeste/product_8334459hd.jpg" alt="manteau"></a>
+            <div id="openModal11" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/giletVeste/product_8334459hd.jpg" alt="manteau">
+              </div>
+            </div>
+            <a href="#openModal12"><img src="images/Homme/giletVeste/sweetCKBlanc.jpg" alt="manteau"></a>
+            <div id="openModal12" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/giletVeste/sweetCKBlanc.jpg" alt="manteau">
+              </div>
+            </div>
+            <a href="#openModal13"><img src="images/Homme/giletVeste/sweetCKNoir.jpg" alt="manteau"></a>
+            <div id="openModal13" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/giletVeste/sweetCKNoir.jpg" alt="manteau">
+              </div>
+            </div>
+            <a href="#openModal14"><img src="images/Homme/giletVeste/sweetSuperdryGris.jpeg" alt="manteau"></a>
+            <div id="openModal14" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/giletVeste/sweetSuperdryGris.jpeg" alt="manteau">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="menShirts">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Chemises </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal15"><img src="images/Homme/chemises/chemise1.jpg" alt="chemise"></a>
+            <div id="openModal15" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/chemises/chemise1.jpg" alt="chemise">
+              </div>
+            </div>
+            <a href="#openModal16"><img src="images/Homme/chemises/chemise2.jpg" alt="chemise"></a>
+            <div id="openModal16" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/chemises/chemise2.jpg" alt="chemise">
+              </div>
+            </div>
+            <a href="#openModal17"><img src="images/Homme/chemises/chemise3.jpg" alt="chemise"></a>
+            <div id="openModal17" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/chemises/chemise3.jpg" alt="chemise">
+              </div>
+            </div>
+            <a href="#openModal18"><img src="images/Homme/chemises/chemise4.jpg" alt="chemise"></a>
+            <div id="openModal18" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/chemises/chemise4.jpg" alt="chemise">
+              </div>
+            </div>
+            <a href="#openModal19"><img src="images/Homme/chemises/chemise5.jpg" alt="chemise"></a>
+            <div id="openModal19" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/chemises/chemise5.jpg" alt="chemise">
+              </div>
+            </div>
+            <a href="#openModal20"><img src="images/Homme/chemises/chemise6.jpg" alt="chemise"></a>
+            <div id="openModal20" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/chemises/chemise6.jpg" alt="chemise">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="menTeeShirts">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> T-Shirt </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal21"><img src="images/Homme/t-shirt/tShirtAddidas.jpg" alt="t-shirt"></a>
+            <div id="openModal21" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/t-shirt/tShirtAddidas.jpg" alt="t-shirt">
+              </div>
+            </div>
+            <a href="#openModal22"><img src="images/Homme/t-shirt/tShirtCK.jpg" alt="t-shirt"></a>
+            <div id="openModal22" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/t-shirt/tShirtCK.jpg" alt="t-shirt">
+              </div>
+            </div>
+            <a href="#openModal23"><img src="images/Homme/t-shirt/tShirtFemme.jpg" alt="t-shirt"></a>
+            <div id="openModal23" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/t-shirt/tShirtFemme.jpg" alt="t-shirt">
+              </div>
+            </div>
+            <a href="#openModal24"><img src="images/Homme/t-shirt/tShirtFemme2.jpg" alt="t-shirt"></a>
+            <div id="openModal24" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/t-shirt/tShirtFemme2.jpg" alt="t-shirt">
+              </div>
+            </div>
+            <a href="#openModal25"><img src="images/Homme/t-shirt/tShirtJoker.jpg" alt="t-shirt"></a>
+            <div id="openModal25" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/t-shirt/tShirtJoker.jpg" alt="t-shirt">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="menSweaters">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Pulls </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal26"><img src="images/Homme/pulls/pull1.jpg" alt="t-shirt"></a>
+            <div id="openModal26" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/pulls/pull1.jpg" alt="t-shirt">
+              </div>
+            </div>
+            <a href="#openModal27"><img src="images/Homme/pulls/pull2.jpg" alt="t-shirt"></a>
+            <div id="openModal27" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/pulls/pull2.jpg" alt="t-shirt">
+              </div>
+            </div>
+            <a href="#openModal28"><img src="images/Homme/pulls/pull3.jpg" alt="t-shirt"></a>
+            <div id="openModal28" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/pulls/pull3.jpg" alt="t-shirt">
+              </div>
+            </div>
+            <a href="#openModal29"><img src="images/Homme/pulls/pull4.jpg" alt="t-shirt"></a>
+            <div id="openModal29" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/pulls/pull4.jpg" alt="t-shirt">
+              </div>
+            </div>
+            <a href="#openModal30"><img src="images/Homme/pulls/pull5.jpg" alt="t-shirt"></a>
+            <div id="openModal30" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/pulls/pull5.jpg" alt="t-shirt">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="menPolo">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Polos </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal31"><img src="images/Homme/polo/poloEA7Blanc.jpeg" alt="polo homme"></a>
+            <div id="openModal31" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/polo/poloEA7Blanc.jpeg" alt="polo homme">
+              </div>
+            </div>
+            <a href="#openModal32"><img src="images/Homme/polo/poloEA7Noir.jpeg" alt="polo homme"></a>
+            <div id="openModal32" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/polo/poloEA7Noir.jpeg" alt="polo homme">
+              </div>
+            </div>
+            <a href="#openModal33"><img src="images/Homme/polo/poloLacostBleu.jpg" alt="polo homme"></a>
+            <div id="openModal33" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/polo/poloLacostBleu.jpg" alt="polo homme">
+              </div>
+            </div>
+            <a href="#openModal34"><img src="images/Homme/polo/poloLacostRouge.jpg" alt="polo homme"></a>
+            <div id="openModal34" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/polo/poloLacostRouge.jpg" alt="polo homme">
+              </div>
+            </div>
+            <a href="#openModal35"><img src="images/Homme/polo/poloSuperdryGris.jpg" alt="polo homme"></a>
+            <div id="openModal35" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/polo/poloSuperdryGris.jpg" alt="polo homme">
+              </div>
+            </div>
+            <a href="#openModal36"><img src="images/Homme/polo/poloSuperdryVert.jpg" alt="polo homme"></a>
+            <div id="openModal36" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/polo/poloSuperdryVert.jpg" alt="polo homme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="menSweats">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Polos </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal37"><img src="images/Homme/sweats/sweat1.jpg" alt="sweats homme"></a>
+            <div id="openModal37" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/sweats/sweat1.jpg" alt="sweats homme">
+              </div>
+            </div>
+            <a href="#openModal38"><img src="images/Homme/sweats/sweat2.jpg" alt="sweats homme"></a>
+            <div id="openModal38" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/sweats/sweat2.jpg" alt="sweats homme">
+              </div>
+            </div>
+            <a href="#openModal39"><img src="images/Homme/sweats/sweat3.jpg" alt="sweats homme"></a>
+            <div id="openModal39" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/sweats/sweat3.jpg" alt="sweats homme">
+              </div>
+            </div>
+            <a href="#openModal40"><img src="images/Homme/sweats/sweat4.jpg" alt="sweats homme"></a>
+            <div id="openModal40" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/sweats/sweat4.jpg" alt="sweats homme">
+              </div>
+            </div>
+            <a href="#openModal41"><img src="images/Homme/sweats/sweat5.jpg" alt="sweats homme"></a>
+            <div id="openModal41" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/sweats/sweat5.jpg" alt="sweats homme">
+              </div>
+            </div>
+            <a href="#openModal42"><img src="images/Homme/sweats/sweat6.jpg" alt="sweats homme"></a>
+            <div id="openModal42" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Homme/sweats/sweat6.jpg" alt="sweats homme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenCoats">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Manteaux </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal43"><img src="images/Femme/manteaux/manteau-femme1.jpg" alt="manteau femme"></a>
+            <div id="openModal43" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/manteaux/manteau-femme1.jpg" alt="manteau femme">
+              </div>
+            </div>
+            <a href="#openModal44"><img src="images/Femme/manteaux/manteau-femme2.jpg" alt="manteau femme"></a>
+            <div id="openModal44" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/manteaux/manteau-femme2.jpg" alt="manteau femme">
+              </div>
+            </div>
+            <a href="#openModal45"><img src="images/Femme/manteaux/manteau-femme3.jpg" alt="manteau femme"></a>
+            <div id="openModal45" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/manteaux/manteau-femme3.jpg" alt="manteau femme">
+              </div>
+            </div>
+            <a href="#openModal46"><img src="images/Femme/manteaux/manteau-femme4.jpg" alt="manteau femme"></a>
+            <div id="openModal46" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/manteaux/manteau-femme4.jpg" alt="manteau femme">
+              </div>
+            </div>
+            <a href="#openModal47"><img src="images/Femme/manteaux/manteau-femme5.jpg" alt="manteau femme"></a>
+            <div id="openModal47" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/manteaux/manteau-femme5.jpg" alt="manteau femme">
+              </div>
+            </div>
+            <a href="#openModal48"><img src="images/Femme/manteaux/manteau-femme6.jpg" alt="manteau femme"></a>
+            <div id="openModal48" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/manteaux/manteau-femme6.jpg" alt="manteau femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenTops">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Tops </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal49"><img src="images/Femme/tops/top-femme01.jpeg" alt="top femme"></a>
+            <div id="openModal49" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tops/top-femme01.jpeg" alt="top femme">
+              </div>
+            </div>
+            <a href="#openModal50"><img src="images/Femme/tops/top-femme02.jpeg" alt="top femme"></a>
+            <div id="openModal50" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tops/top-femme02.jpeg" alt="top femme">
+              </div>
+            </div>
+            <a href="#openModal51"><img src="images/Femme/tops/top-femme03.jpg" alt="top femme"></a>
+            <div id="openModal51" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tops/top-femme03.jpg" alt="top femme">
+              </div>
+            </div>
+            <a href="#openModal52"><img src="images/Femme/tops/top-femme04.jpeg" alt="top femme"></a>
+            <div id="openModal52" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tops/top-femme04.jpeg" alt="top femme">
+              </div>
+            </div>
+            <a href="#openModal53"><img src="images/Femme/tops/top-femme05.jpg" alt="top femme"></a>
+            <div id="openModal53" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tops/top-femme05.jpg" alt="top femme">
+              </div>
+            </div>
+            <a href="#openModal54"><img src="images/Femme/tops/top-femme06.jpg" alt="top femme"></a>
+            <div id="openModal54" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tops/top-femme06.jpg" alt="top femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenDress">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Robes </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal55"><img src="images/Femme/robes/robe-femme01.jpg" alt="robe femme"></a>
+            <div id="openModal55" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/robes/robe-femme01.jpg" alt="robe femme">
+              </div>
+            </div>
+            <a href="#openModal56"><img src="images/Femme/robes/robe-femme02.jpg" alt="robe femme"></a>
+            <div id="openModal56" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/robes/robe-femme02.jpg" alt="robe femme">
+              </div>
+            </div>
+            <a href="#openModal57"><img src="images/Femme/robes/robe-femme03.jpg" alt="robe femme"></a>
+            <div id="openModal57" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/robes/robe-femme03.jpg" alt="robe femme">
+              </div>
+            </div>
+            <a href="#openModal58"><img src="images/Femme/robes/robe-femme04.jpg" alt="robe femme"></a>
+            <div id="openModal58" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/robes/robe-femme04.jpg" alt="robe femme">
+              </div>
+            </div>
+            <a href="#openModal59"><img src="images/Femme/robes/robe-femme05.jpg" alt="robe femme"></a>
+            <div id="openModal59" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/robes/robe-femme05.jpg" alt="robe femme">
+              </div>
+            </div>
+            <a href="#openModal60"><img src="images/Femme/robes/robe-femme06.jpg" alt="robe femme"></a>
+            <div id="openModal60" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/robes/robe-femme06.jpg" alt="robe femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenVests">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Gilets </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal61"><img src="images/Femme/gilets/gilet-femme01.jpg" alt="gilet femme"></a>
+            <div id="openModal61" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/gilets/gilet-femme01.jpg" alt="gilet femme">
+              </div>
+            </div>
+            <a href="#openModal62"><img src="images/Femme/gilets/gilet-femme02.jpg" alt="gilet femme"></a>
+            <div id="openModal62" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/gilets/gilet-femme02.jpg" alt="gilet femme">
+              </div>
+            </div>
+            <a href="#openModal63"><img src="images/Femme/gilets/gilet-femme03.jpg" alt="gilet femme"></a>
+            <div id="openModal63" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/gilets/gilet-femme03.jpg" alt="gilet femme">
+              </div>
+            </div>
+            <a href="#openModal64"><img src="images/Femme/gilets/gilet-femme04.jpg" alt="gilet femme"></a>
+            <div id="openModal64" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/gilets/gilet-femme04.jpg" alt="gilet femme">
+              </div>
+            </div>
+            <a href="#openModal65"><img src="images/Femme/gilets/gilet-femme05.jpg" alt="gilet femme"></a>
+            <div id="openModal65" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/gilets/gilet-femme05.jpg" alt="gilet femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenJackets">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Vestes </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal66"><img src="images/Femme/vestes/veste-femme01.jpg" alt="veste femme"></a>
+            <div id="openModal66" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/vestes/veste-femme01.jpg" alt="veste femme">
+              </div>
+            </div>
+            <a href="#openModal67"><img src="images/Femme/vestes/veste-femme02.jpg" alt="veste femme"></a>
+            <div id="openModal67" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/vestes/veste-femme02.jpg" alt="veste femme">
+              </div>
+            </div>
+            <a href="#openModal68"><img src="images/Femme/vestes/veste-femme03.jpg" alt="veste femme"></a>
+            <div id="openModal68" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/vestes/veste-femme03.jpg" alt="veste femme">
+              </div>
+            </div>
+            <a href="#openModal69"><img src="images/Femme/vestes/veste-femme04.jpg" alt="veste femme"></a>
+            <div id="openModal69" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/vestes/veste-femme04.jpg" alt="veste femme">
+              </div>
+            </div>
+            <a href="#openModal70"><img src="images/Femme/vestes/veste-femme05.jpg" alt="veste femme"></a>
+            <div id="openModal70" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/vestes/veste-femme05.jpg" alt="veste femme">
+              </div>
+            </div>
+            <a href="#openModal71"><img src="images/Femme/vestes/veste-femme06.jpg" alt="veste femme"></a>
+            <div id="openModal71" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/vestes/veste-femme06.jpg" alt="veste femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenShirts">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Chemises </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal72"><img src="images/Femme/chemises/chemise-femme01.jpg" alt="chemise femme"></a>
+            <div id="openModal72" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/chemises/chemise-femme01.jpg" alt="chemise femme">
+              </div>
+            </div>
+            <a href="#openModal73"><img src="images/Femme/chemises/chemise-femme02.jpg" alt="chemise femme"></a>
+            <div id="openModal73" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/chemises/chemise-femme02.jpg" alt="chemise femme">
+              </div>
+            </div>
+            <a href="#openModal74"><img src="images/Femme/chemises/chemise-femme03.jpg" alt="chemise femme"></a>
+            <div id="openModal74" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/chemises/chemise-femme03.jpg" alt="chemise femme">
+              </div>
+            </div>
+            <a href="#openModal75"><img src="images/Femme/chemises/chemise-femme04.jpg" alt="chemise femme"></a>
+            <div id="openModal75" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/chemises/chemise-femme04.jpg" alt="chemise femme">
+              </div>
+            </div>
+            <a href="#openModal76"><img src="images/Femme/chemises/chemise-femme05.jpg" alt="chemise femme"></a>
+            <div id="openModal76" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/chemises/chemise-femme05.jpg" alt="chemise femme">
+              </div>
+            </div>
+            <a href="#openModal77"><img src="images/Femme/chemises/chemise-femme06.jpg" alt="chemise femme"></a>
+            <div id="openModal77" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/chemises/chemise-femme06.jpg" alt="chemise femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenTeeShirts">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> T-Shirts </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal78"><img src="images/Femme/tee-shirts/tee-shirts-femme01.jpg" alt="tee-shirt femme"></a>
+            <div id="openModal78" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tee-shirts/tee-shirts-femme01.jpg" alt="tee-shirt femme">
+              </div>
+            </div>
+            <a href="#openModal79"><img src="images/Femme/tee-shirts/tee-shirts-femme02.jpg" alt="tee-shirt femme"></a>
+            <div id="openModal79" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tee-shirts/tee-shirts-femme02.jpg" alt="tee-shirt femme">
+              </div>
+            </div>
+            <a href="#openModal80"><img src="images/Femme/tee-shirts/tee-shirts-femme03.jpg" alt="tee-shirt femme"></a>
+            <div id="openModal80" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tee-shirts/tee-shirts-femme03.jpg" alt="tee-shirt femme">
+              </div>
+            </div>
+            <a href="#openModal81"><img src="images/Femme/tee-shirts/tee-shirts-femme04.jpg" alt="tee-shirt femme"></a>
+            <div id="openModal81" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tee-shirts/tee-shirts-femme04.jpg" alt="tee-shirt femme">
+              </div>
+            </div>
+            <a href="#openModal82"><img src="images/Femme/tee-shirts/tee-shirts-femme05.jpg" alt="tee-shirt femme"></a>
+            <div id="openModal82" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tee-shirts/tee-shirts-femme05.jpg" alt="tee-shirt femme">
+              </div>
+            </div>
+            <a href="#openModal83"><img src="images/Femme/tee-shirts/tee-shirts-femme06.jpg" alt="tee-shirt femme"></a>
+            <div id="openModal83" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/tee-shirts/tee-shirts-femme06.jpg" alt="tee-shirt femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenSweaters">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Pulls </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal84"><img src="images/Femme/pulls/pull-femme01.jpg" alt="pull femme"></a>
+            <div id="openModal84" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/pulls/pull-femme01.jpg" alt="pull femme">
+              </div>
+            </div>
+            <a href="#openModal85"><img src="images/Femme/pulls/pull-femme02.jpg" alt="pull femme"></a>
+            <div id="openModal85" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/pulls/pull-femme02.jpg" alt="pull femme"></a>
+              </div>
+            </div>
+            <a href="#openModal86"><img src="images/Femme/pulls/pull-femme03.jpg" alt="pull femme"></a>
+            <div id="openModal86" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/pulls/pull-femme03.jpg" alt="pull femme">
+              </div>
+            </div>
+            <a href="#openModal87"><img src="images/Femme/pulls/pull-femme04.jpg" alt="pull femme"></a>
+            <div id="openModal87" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/pulls/pull-femme04.jpg" alt="pull femme">
+              </div>
+            </div>
+            <a href="#openModal88"><img src="images/Femme/pulls/pull-femme05.jpg" alt="pull femme"></a>
+            <div id="openModal88" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/pulls/pull-femme05.jpg" alt="pull femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenSweats">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Sweats </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal89"><img src="images/Femme/sweats/sweat-femme01.jpg" alt="sweat femme"></a>
+            <div id="openModal89" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/sweats/sweat-femme01.jpg" alt="sweat femme">
+              </div>
+            </div>
+            <a href="#openModal90"><img src="images/Femme/sweats/sweat-femme02.jpg" alt="sweat femme"></a>
+            <div id="openModal90" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/sweats/sweat-femme02.jpg" alt="sweat femme">
+              </div>
+            </div>
+            <a href="#openModal91"><img src="images/Femme/sweats/sweat-femme03.jpg" alt="sweat femme"></a>
+            <div id="openModal91" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/sweats/sweat-femme03.jpg" alt="sweat femme">
+              </div>
+            </div>
+            <a href="#openModal92"><img src="images/Femme/sweats/sweat-femme04.jpg" alt="sweat femme"></a>
+            <div id="openModal92" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/sweats/sweat-femme04.jpg" alt="sweat femme">
+              </div>
+            </div>
+            <a href="#openModal93"><img src="images/Femme/sweats/sweat-femme05.jpg" alt="sweat femme"></a>
+            <div id="openModal93" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/sweats/sweat-femme05.jpg" alt="sweat femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row category hidden" id="womenPolos">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <p> Polos </p>
+            </div>
+          </div>
+          <div class="panel-body">
+            <a href="#openModal94"><img src="images/Femme/polos/polo-femme01.jpg" alt="polo femme"></a>
+            <div id="openModal94" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/polos/polo-femme01.jpg" alt="polo femme">
+              </div>
+            </div>
+            <a href="#openModal95"><img src="images/Femme/polos/polo-femme02.jpg" alt="polo femme"></a>
+            <div id="openModal95" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/polos/polo-femme02.jpg" alt="polo femme">
+              </div>
+            </div>
+            <a href="#openModal96"><img src="images/Femme/polos/polo-femme03.jpg" alt="polo femme"></a>
+            <div id="openModal96" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/polos/polo-femme03.jpg" alt="polo femme">
+              </div>
+            </div>
+            <a href="#openModal97"><img src="images/Femme/polos/polo-femme04.jpg" alt="polo femme"></a>
+            <div id="openModal97" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/polos/polo-femme04.jpg" alt="polo femme">
+              </div>
+            </div>
+            <a href="#openModal98"><img src="images/Femme/polos/polo-femme05.jpg" alt="polo femme"></a>
+            <div id="openModal98" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/polos/polo-femme05.jpg" alt="polo femme">
+              </div>
+            </div>
+            <a href="#openModal99"><img src="images/Femme/polos/polo-femme06.jpg" alt="polo femme"></a>
+            <div id="openModal99" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close glyphicon glyphicon-remove"></a>
+                <img src="images/Femme/polos/polo-femme06.jpg" alt="polo femme">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous">
+  </script>
+  <script>
+  $(document).ready(function() {
+    $('#men').click(function(){
+      $('#menList').show();
+      $('#womenList').hide();
+    });
+    $('#women').click(function(){
+      $('#womenList').show();
+      $('#menList').hide();
+    });
+
+    $("#arrivalsButton").click(function() {
+      if($("#arrivals").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#arrivals").removeClass("hidden");
+        $("#arrivals").addClass("visible");
+      }
+    });
+    $("#menTeeShirtsButton").click(function() {
+      if($("#menTeeShirts").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#menTeeShirts").removeClass("hidden");
+        $("#menTeeShirts").addClass("visible");
+      }
+    });
+    $("#menPolosButton").click(function() {
+      if($("#menPolo").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#menPolo").removeClass("hidden");
+        $("#menPolo").addClass("visible");
+      }
+    });
+    $("#menShirtsButton").click(function() {
+      if($("#menShirts").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#menShirts").removeClass("hidden");
+        $("#menShirts").addClass("visible");
+      }
+    });
+    $("#menSweatersButton").click(function() {
+      if($("#menSweaters").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#menSweaters").removeClass("hidden");
+        $("#menSweaters").addClass("visible");
+      }
+    });
+    $("#menSweatsButton").click(function() {
+      if($("#menSweats").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#menSweats").removeClass("hidden");
+        $("#menSweats").addClass("visible");
+      }
+    });
+    $("#menVestsJacketsButton").click(function() {
+      if($("#menVestsJackets").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#menVestsJackets").removeClass("hidden");
+        $("#menVestsJackets").addClass("visible");
+      }
+    });
+    $("#menCoatsButton").click(function() {
+      if($("#menCoats").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#menCoats").removeClass("hidden");
+        $("#menCoats").addClass("visible");
+      }
+    });
+    $("#womenTopsButton").click(function() {
+      if($("#womenTops").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenTops").removeClass("hidden");
+        $("#womenTops").addClass("visible");
+      }
+    });
+    $("#womenTeeShirtsButton").click(function() {
+      if($("#womenTeeShirts").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenTeeShirts").removeClass("hidden");
+        $("#womenTeeShirts").addClass("visible");
+      }
+    });
+    $("#womenPolosButton").click(function() {
+      if($("#womenPolos").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenPolos").removeClass("hidden");
+        $("#womenPolos").addClass("visible");
+      }
+    });
+    $("#womenShirtsButton").click(function() {
+      if($("#womenShirts").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenShirts").removeClass("hidden");
+        $("#womenShirts").addClass("visible");
+      }
+    });
+    $("#womenDressButton").click(function() {
+      if($("#womenDress").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenDress").removeClass("hidden");
+        $("#womenDress").addClass("visible");
+      }
+    });
+    $("#womenSweatsButton").click(function() {
+      if($("#womenSweats").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenSweats").removeClass("hidden");
+        $("#womenSweats").addClass("visible");
+      }
+    });
+    $("#womenSweatersButton").click(function() {
+      if($("#womenSweaters").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenSweaters").removeClass("hidden");
+        $("#womenSweaters").addClass("visible");
+      }
+    });
+    $("#womenVestsButton").click(function() {
+      if($("#womenVests").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenVests").removeClass("hidden");
+        $("#womenVests").addClass("visible");
+      }
+    });
+    $("#womenJacketsButton").click(function() {
+      if($("#womenJackets").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenJackets").removeClass("hidden");
+        $("#womenJackets").addClass("visible");
+      }
+    });
+    $("#womenCoatsButton").click(function() {
+      if($("#womenCoats").hasClass("hidden")) {
+        $(".category").removeClass("visible");
+        $(".category").addClass("hidden");
+        $("#womenCoats").removeClass("hidden");
+        $("#womenCoats").addClass("visible");
+      }
+    });
+  });
+  </script>
+</body>
+</html>
